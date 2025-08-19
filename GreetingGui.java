@@ -21,31 +21,31 @@ public class GreetingGui extends JFrame
     //Declare all components.
     
     //Declare 8 Panels.
-    JPanel mainPnl;
-    JPanel headingPnl;
-    JPanel headingAndDetailsPnl;
-    JPanel nameAndSurnamePnl;
-    JPanel namePnl;
-    JPanel surnamePnl;
-    JPanel greetingsTextPnl;
-    JPanel btnPnl;
+    private JPanel mainPnl;
+    private JPanel headingPnl;
+    private JPanel headingAndDetailsPnl;
+    private JPanel nameAndSurnamePnl;
+    private JPanel namePnl;
+    private JPanel surnamePnl;
+    private JPanel greetingsTextPnl;
+    private JPanel btnPnl;
     
     //Declare Labels.
-    JLabel headingLabel;
-    JLabel nameLabel;
-    JLabel surnameLabel;
+    private JLabel headingLabel;
+    private JLabel nameLabel;
+    private JLabel surnameLabel;
     
     //Declare 2 textFields.
-    JTextField nameField;
-    JTextField surnameField;
+    private JTextField nameField;
+    private JTextField surnameField;
     
     //Declare 1 textArea.
-    JTextArea greetingTextArea;
+    private JTextArea greetingTextArea;
     
     //Declare 3 buttons.
-    JButton greetBtn;
-    JButton clearBtn;
-    JButton exitBtn;
+    private JButton greetBtn;
+    private JButton clearBtn;
+    private JButton exitBtn;
     
     public GreetingGui()
     {
@@ -125,3 +125,4 @@ public class GreetingGui extends JFrame
         this.setVisible(true);   
     }   
 }
+
